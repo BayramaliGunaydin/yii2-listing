@@ -19,12 +19,12 @@
     },
     "autoload": {
       "psr-4": {
-        "BayramaliGunaydin\\listing\\": "src"
+        "bayramaligunaydin\\listing\\": "src"
       }
     },
     "autoload-dev": {
       "psr-4": {
-        "BayramaliGunaydin\\listing\\tests\\": "tests"
+        "bayramaligunaydin\\listing\\tests\\": "tests"
       }
     },
     "repositories": [
