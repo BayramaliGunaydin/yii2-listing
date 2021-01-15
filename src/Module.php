@@ -1,5 +1,5 @@
 <?php
-namespace BayramaliGunaydin\listing;
+namespace bayramaligunaydin\listing;
 class Module extends \yii\base\Module {
 
     public function init()

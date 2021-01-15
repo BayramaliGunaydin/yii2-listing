@@ -1,5 +1,5 @@
 <?php
-namespace BayramaliGunaydin\listing\controllers;
+namespace bayramaligunaydin\listing\controllers;
 class DefaultController extends \yii\web\Controller
 {
 public function actionIndex()
