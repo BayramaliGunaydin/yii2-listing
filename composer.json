@@ -1,0 +1,36 @@
+{
+    "name": "BayramaliGunaydin/yii2-listing",
+    "description": "Yii2 Listing Module",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "BayramaliGunaydin",
+        "email": "bayramg0098@gmail.com",
+        "role": "Developer"
+      }
+    ],
+    "require": {
+      "php": ">=7.0",
+      "yiisoft/yii2": "~2.0.13"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "8.*.*"
+    },
+    "autoload": {
+      "psr-4": {
+        "BayramaliGunaydin\\listing\\": "src"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "BayramaliGunaydin\\listing\\tests\\": "tests"
+      }
+    },
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://asset-packagist.org"
+      }
+    ]
+  }
