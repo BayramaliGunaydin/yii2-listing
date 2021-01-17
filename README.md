@@ -1,6 +1,11 @@
 # Fiyat Listeleme Modülü
+
+•Fiyat Listeleme Mödülünün amacı,kullanıcının aynı ürünü en ucuza hangi marketten alabileceğini göstermek.Aynı zamanda kullanıcının, istediği marketin tüm ürünlerinin fiyatına ulaşmasını sağlamak.
+
+•Fiya Listeleme Modülünde iki farklı panel vardır.Kullanıcı panelinde herhangi bir ekleme veya silme işlemi yapılamaz.Ekleme ve çıkarma işlemleri admin panelinde yapılır.
+
 ## Kurulum
-Kurulum için konsolda ,vagrant makinanızın içinde bulunan /vagrant klasorune gidip aşağıdaki kodu yazmanız gerekmekte.
+Kurulum için konsolda ,vagrant makinanızın içinde bulunan /var/www/advanced klasorune gidip aşağıdaki kodu yazmanız gerekmekte.
 ### composer require bayramaligunaydin/yii2-listing "dev-main"
 
 Ardından advanced/backend/config/main.php içerisinde aşağıda gösterilen yere
@@ -70,12 +75,10 @@ Kullanıcılar panel üstünde herhangi bir ekleme veya çıkarma işlemi yapama
 #### Kullanıcı ekranı:
 ![Kullanıcı](https://user-images.githubusercontent.com/76952086/104830406-f477ed80-588f-11eb-8277-be608f228264.png)
 
-## Modül İşlevi
-
-Fiyat Listeleme Mödülü kullanıcılara, aynı ürünü en ucuza hangi marketten alabileceğini gösterir.Aynı zamanda kullanıcının, istediği marketin tüm ürünlerinin fiyatına ulaşmasını sağlar. 
-
 ## Notlar
 
 • Modül arama işlemini fiyatlar tablosu üzerinde yapmaktadır.
+
+• Modülde üç adet tablo bulunmaktadır.Bunlar Fiyatlar,Marketler ve Urunler tablosu.Fiyatlar tablosu, Marketler ve Urunler tablolarıyla ilişkilidir.
 
 • Fiyatlar tablosunda marketlerin ve ürünlerin isimleri yer almamaktadır.Fiyatlar tablosu ürünler ve marketler tablolarıyla ilişkilidir.İçerisinde bulunan market_id ve urun_id sutünlarıyla marketlerin ve ürünlerin isimlerini diğer tablolardan almaktadır.
