@@ -77,4 +77,5 @@ Fiyat Listeleme Mödülü kullanıcılara, aynı ürünü en ucuza hangi markett
 ## Notlar
 
 • Modül arama işlemini fiyatlar tablosu üzerinde yapmaktadır.
+
 • Fiyatlar tablosunda marketlerin ve ürünlerin isimleri yer almamaktadır.Fiyatlar tablosu ürünler ve marketler tablolarıyla ilişkilidir.İçerisinde bulunan market_id ve urun_id sutünlarıyla marketlerin ve ürünlerin isimlerini diğer tablolardan almaktadır.
