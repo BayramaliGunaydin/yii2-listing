@@ -1,7 +1,7 @@
 # Fiyat Listeleme Modülü
 ## Kurulum
 Kurulum için konsolda ,vagrant makinanızın içinde bulunan /vagrant klasorune gidip aşağıdaki kodu yazmanız gerekmekte.
-### composer require bayramaligunaydin/yii2-listing
+### composer require bayramaligunaydin/yii2-listing "dev-main"
 
 Ardından advanced/backend/config/main.php içerisinde aşağıda gösterilen yere
 ![main](https://user-images.githubusercontent.com/76952086/104830342-073df280-588f-11eb-976f-fc47afb60e9f.png)
