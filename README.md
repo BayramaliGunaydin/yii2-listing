@@ -5,7 +5,24 @@
 •Fiya Listeleme Modülünde iki farklı panel vardır.Kullanıcı panelinde herhangi bir ekleme veya silme işlemi yapılamaz.Ekleme ve çıkarma işlemleri admin panelinde yapılır.
 
 ## Kurulum
-Kurulum için konsolda ,vagrant makinanızın içinde bulunan /var/www/advanced klasorune gidip aşağıdaki kodu yazmanız gerekmekte.
+Kurulum için ilk önce projenizin kurulu olduğu dizinde vagrant klasoru altına gitmelisiniz.
+
+### cd /proje-ismi/vagrant
+
+Ardından aşağıdaki kodla projemizi ayağa kaldımamız gerekiyor.
+
+### vagrant up
+
+Sonrasında vagrant makinamıza bağlanıyoruz.
+
+### vagrant ssh
+
+Kurulum için konsolda aşağıdaki kodla
+
+### cd /var/www/advanced
+
+dizinine gidip aşağıdaki kodu yazmanız gerekmekte.
+
 ### composer require bayramaligunaydin/yii2-listing "dev-main"
 
 Ardından advanced/backend/config/main.php içerisinde aşağıda gösterilen yere
