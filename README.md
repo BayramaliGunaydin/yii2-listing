@@ -100,4 +100,4 @@ Kullanıcılar panel üstünde herhangi bir ekleme veya çıkarma işlemi yapama
 
 • Fiyatlar tablosunda marketlerin ve ürünlerin isimleri yer almamaktadır.Fiyatlar tablosu ürünler ve marketler tablolarıyla ilişkilidir.İçerisinde bulunan market_id ve urun_id sutünlarıyla marketlerin ve ürünlerin isimlerini diğer tablolardan almaktadır.
 
-• Modülün içinde bulunan database migrationı sayesinde resimlerde bulunan veritabanı kurulumda yaptığınız migrate ile eklenecektir.
+• Modülün içinde bulunan database migrationı sayesinde resimlerdeki veritabanı, kurulumda yaptığınız migrate işlemi ile eklenecektir.
