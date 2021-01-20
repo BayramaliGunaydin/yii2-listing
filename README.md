@@ -6,25 +6,25 @@
 
 ## Kurulum
 Kurulum için ilk önce projenizin kurulu olduğu dizinde vagrant klasoru altına gitmelisiniz.
-
-### cd /proje-ismi/vagrant
-
+```js
+cd /proje-ismi/vagrant
+```
 Ardından aşağıdaki kodla projemizi ayağa kaldımamız gerekiyor.
-
-### vagrant up
-
+```js
+vagrant up
+```
 Sonrasında vagrant makinamıza bağlanıyoruz.
 ```js
- vagrant ssh
+vagrant ssh
 ```
 Kurulum için konsolda aşağıdaki kodla
-
-### cd /var/www/advanced
-
+```js
+cd /var/www/advanced
+```
 dizinine gidip aşağıdaki kodu yazmanız gerekmekte.
-
-### composer require bayramaligunaydin/yii2-listing "dev-main"
-
+```js
+composer require bayramaligunaydin/yii2-listing "dev-main"
+```
 Ardından advanced/backend/config/main.php içerisinde aşağıda gösterilen yere
 ![main1](https://user-images.githubusercontent.com/76952086/105165120-fc04f400-5b26-11eb-943b-ad46bc265e26.png)
 
