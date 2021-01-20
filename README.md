@@ -48,7 +48,7 @@ Vagrant makinanızda /var/www/advenced altına aşağıdaki kodu yazarak migrati
 
 ### php yii migrate --migrationPath=@vendor/bayramaligunaydin/yii2-listing/src/migrations
 
-## Modülden Görüntüler
+## Modül Ayrıntıları
 
 #### Admin sayfası linki:http://advanced/backend/web/index.php?r=listing/admin/index
 
