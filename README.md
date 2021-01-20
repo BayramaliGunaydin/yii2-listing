@@ -5,7 +5,7 @@
 •Fiya Listeleme Modülünde iki farklı panel vardır.Kullanıcı panelinde herhangi bir ekleme veya silme işlemi yapılamaz.Ekleme ve çıkarma işlemleri admin panelinde yapılır.
 
 ## Kurulum
-Kurulum için ilk önce projenizin kurulu olduğu dizinde vagrant klasoru altına gitmelisiniz.
+Kurulum için ilk önce konsolda projenizin kurulu olduğu dizinde vagrant klasoru altına gitmelisiniz.
 ```js
 cd /proje-ismi/vagrant
 ```
