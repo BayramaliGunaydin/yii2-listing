@@ -14,9 +14,9 @@ Ardından aşağıdaki kodla projemizi ayağa kaldımamız gerekiyor.
 ### vagrant up
 
 Sonrasında vagrant makinamıza bağlanıyoruz.
-
-### vagrant ssh
-
+```js
+ vagrant ssh
+```
 Kurulum için konsolda aşağıdaki kodla
 
 ### cd /var/www/advanced
