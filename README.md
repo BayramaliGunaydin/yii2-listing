@@ -26,13 +26,12 @@ dizinine gidip aşağıdaki kodu yazmanız gerekmekte.
 ### composer require bayramaligunaydin/yii2-listing "dev-main"
 
 Ardından advanced/backend/config/main.php içerisinde aşağıda gösterilen yere
-![main](https://user-images.githubusercontent.com/76952086/104830342-073df280-588f-11eb-976f-fc47afb60e9f.png)
+![main1](https://user-images.githubusercontent.com/76952086/105165120-fc04f400-5b26-11eb-943b-ad46bc265e26.png)
 
 Aşağıdaki kodu eklemelisiniz.
 
 ```php
 'name'=>'Fiyat Listeleme',
-    'homeurl'=>'http://advanced/backend/web/index.php?r=listing%2Ffiyatlar%2Findex',
      
     'modules' => [
         'listing'=>[
